@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header {
+
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    background-color:white;
+    display: flex;
+    height: 150px;
+
+}
+.logo img {
+
+   width: 170px;
+   height: 145px;
+   
+
+}
+.anchorlink {
+    
+    color: rgba(173, 101, 101, 0.655);
+    border-radius: 8px;
+    height: 10px;
+    display: flex;
+    padding-top: 90px;
+    gap: 30px
+    
+
+}
+.anchorlink :hover {
+color: blue;
+background-color: blueviolet;
+transform: translateY(7);
+}
+.sociallink {
+
+    color: rgba(173, 101, 101, 0.655);
+    font-size: 40px;
+    display: flex;
+    padding-top: 70px;
+    gap: 12px;
+
+}
+.sociallink :hover {
+    color: rgba(212, 225, 228, 0.694);
+background-color: rgba(183, 154, 185, 0.512);
+transform: translateY(7);
+height: 27px;
+border-radius: 10px;
+z-index: 1;
+}
+.container2{
+    width: 98.7vw;
+    height: 650px;
+    margin: auto;
+    margin-top: 10px;
+    background-origin: 15px solid #e74c3c;
+    overflow: hidden;
+
+}
+.container2 .slider{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    top: 0;
+    animation: animate 15s linear infinite;
+}
+.container2 .slider img{
+    width: 10%;
+    float: left;
+}
+@keyframes animate {
+    0%, 100%{left: 0;}
+    20%{left: 0;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    7%{left: - 300;}
+    75%{left: -300;}
+    95%{left: -300;}
+}
+
+
+
+
+
+.container3 h2{
+    height: 100px;
+    color:black;
+    padding-top: 60px;
+    text-align: center;
+    justify-content: center;
+}
+.container4 {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+    height: 40px;
+    width: 180px;
+    border-radius: 10px;
+}
+.container4 button {
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    color: black;
+    border-radius: 25px;
+    background-color: white;
+}
+.container4 button :hover {
+    color:black;
+background-color: white;
+transform: translateY(7);
+}
+.container5 {
+    height: 300px;
+    padding-left: 11px;
+   padding-top: 40px;
+    background-color: rgb(0, 0, 11);
+    display: flex;
+    justify-content: space-around;
+}
+.container5 img{
+    width: 320px;
+    height: 220px;
+}
+.container5 button {
+    margin-top: 25px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    color:black;
+    border-radius: 25px;
+    background-color: white;
+}
+.container5 button :hover {
+    color:white;
+    background-color: blueviolet;
+    transform: translateY(7);
+}
+.container7 {
+    justify-content: center;
+    text-align: center;
+    height: 80px;
+}
+.container8 {
+    display: flex;
+   gap: 120px;
+
+}
+
+.container8 img {
+    width: 650px;
+    height: 400px;
+}
+.container9{
+    text-align: center;
+    padding-top:20px;
+    margin-top: 60px;
+}
+.container10 {
+    background-color: rgb(5, 5, 64);
+    height: 450px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    
+    
+
+}
+.container10 img{
+    justify-content: center;
+    padding-left: 400px;
+    width: 75vw;
+    height: 450px;
+    color: navy;
+}
+.container11 {
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: 40px;
+    height: 50vh;
+
+}
+.container11 button{
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    color: black;
+    border-radius: 25px;
+    background-color: white;
+}
+.container11 button :hover{
+    color:white;
+    background-color: blueviolet;
+    transform: translateY(7);
+}
+.container12 {
+    padding-top: 20px;
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    background-color: rgb(18, 18, 58);
+    
+
+}
+.container12 .sociallink2{
+    font-size: 40px;
+}
+.ttt {
+    padding-top: 7px;
+    padding-bottom: 20px;
+    background-color: rgb(10, 10, 63);
+    color: white;
+}
